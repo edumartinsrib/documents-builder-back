@@ -1,0 +1,18 @@
+type Query {
+  # Defina suas queries aqui
+}
+
+type Mutation {
+  createData(input: DataInput!): Data
+}
+
+type Data {
+  id: ID!
+  field1: String!
+  field2: Int!
+}
+
+input DataInput {
+  field1: String!
+  field2: Int!
+}

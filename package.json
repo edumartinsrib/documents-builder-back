@@ -13,19 +13,29 @@
     "@commitlint/cli": "^17.4.4",
     "@commitlint/config-conventional": "^17.4.4",
     "@types/express": "^4.17.17",
+    "@types/graphql": "^14.5.0",
     "@types/mongoose": "^5.11.97",
     "@types/node": "^18.14.6",
     "apollo-server-lambda": "^3.12.0",
     "graphql": "^16.6.0",
     "husky": "^8.0.3",
     "mongoose": "^7.0.0",
+    "serverless-apigw-binary": "^0.4.4",
+    "serverless-dotenv-plugin": "^4.0.2",
     "serverless-http": "^3.1.1",
     "serverless-offline": "^12.0.4",
+    "serverless-plugin-typescript": "^2.1.4",
+    "ts-node": "^10.9.1",
+    "tslint": "^5.20.1",
+    "tslint-config-standard": "^9.0.0",
     "typescript": "^4.9.5"
   },
   "husky": {
     "hooks": {
       "commit-msg": "npm run commitmsg"
     }
+  },
+  "dependencies": {
+    "serverless": "^3.28.1"
   }
 }
